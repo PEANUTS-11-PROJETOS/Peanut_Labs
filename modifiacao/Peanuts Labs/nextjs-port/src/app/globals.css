@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@theme {
+@theme inline {
   /* Cores — paleta futurista da Peanuts Labs */
   --color-pl-bg:         #07070C;
   --color-pl-bg-2:       #0D0D17;
