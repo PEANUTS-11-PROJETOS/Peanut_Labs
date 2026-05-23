@@ -51,7 +51,7 @@ export function Contact() {
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-14">
           <a
-            href="https://wa.me/"
+            href="https://wa.me/5511989408375"
             className="group relative inline-flex items-center justify-between gap-3 bg-pl-accent text-[#07070C] font-semibold text-[15px] pl-7 pr-3 py-3.5 rounded-full overflow-hidden glow-amber min-w-[280px]"
           >
             <span className="flex items-center gap-3">
@@ -63,10 +63,10 @@ export function Contact() {
             </span>
           </a>
           <a
-            href="mailto:ola@peanutslabs.com.br"
+            href="mailto:peanutslabs11@gmail.com"
             className="group inline-flex items-center gap-3 border border-white/15 text-white font-medium text-[15px] pl-6 pr-3 py-3.5 rounded-full hover:border-white/40 hover:bg-white/5 transition min-w-[240px] justify-between"
           >
-            <span>ola@peanutslabs.com.br</span>
+            <span>peanutslabs11@gmail.com</span>
             <span className="w-9 h-9 rounded-full bg-white/10 flex items-center justify-center">→</span>
           </a>
         </div>
