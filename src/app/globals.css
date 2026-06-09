@@ -84,6 +84,8 @@ html { scroll-behavior: smooth; }
 .aurora::before, .aurora::after {
   content: ''; position: absolute; border-radius: 9999px;
   filter: blur(80px); opacity: 0.45;
+  will-change: transform;
+  transform: translateZ(0);
 }
 .aurora::before {
   width: 700px; height: 700px;
