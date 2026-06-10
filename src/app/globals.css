@@ -189,3 +189,22 @@ html { scroll-behavior: smooth; }
   to { opacity: 1; transform: translateY(0); }
 }
 [data-reveal] { animation: reveal 0.8s cubic-bezier(.2,.7,.2,1) both; }
+
+/* ───────────────────────────────────────────── modal */
+@keyframes backdrop-in {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+@keyframes modal-in {
+  from { opacity: 0; transform: translateY(20px) scale(0.98); }
+  to   { opacity: 1; transform: translateY(0)    scale(1); }
+}
+@keyframes sheet-in {
+  from { opacity: 0; transform: translateY(100%); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.backdrop-in  { animation: backdrop-in 0.2s ease both; }
+.modal-in     { animation: modal-in   0.25s cubic-bezier(.2,.7,.2,1) both; }
+@media (max-width: 639px) {
+  .modal-in   { animation: sheet-in   0.3s  cubic-bezier(.2,.7,.2,1) both; }
+}
