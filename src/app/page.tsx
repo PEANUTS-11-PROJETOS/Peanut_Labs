@@ -3,6 +3,7 @@ import { StatusBar } from "@/components/StatusBar";
 import { Hero } from "@/components/Hero";
 import { Marquee } from "@/components/Marquee";
 import { Services } from "@/components/Services";
+import { Portfolio } from "@/components/Portfolio";
 import { HowItWorks } from "@/components/HowItWorks";
 import { About } from "@/components/About";
 import { Contact } from "@/components/Contact";
@@ -17,6 +18,7 @@ export default function Home() {
         <Hero />
         <Marquee />
         <Services />
+        <Portfolio />
         <HowItWorks />
         <About />
         <Contact />
