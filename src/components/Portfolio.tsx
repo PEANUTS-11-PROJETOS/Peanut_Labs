@@ -50,7 +50,7 @@ const projects: Project[] = [
     images: [
       { src: "/projects/anastacia/pagina_inicial.png", alt: "Anastácia – Página Inicial" },
       { src: "/projects/anastacia/carrinho.png", alt: "Anastácia – Carrinho" },
-      { src: "/projects/anastacia/admin.png", alt: "Anastácia – Painel Admin" },
+      { src: "/projects/anastacia/login_admin.png", alt: "Anastácia – Painel Admin" },
     ],
     href: "https://anastacia-semijoias.vercel.app",
     linkLabel: "anastacia-semijoias.vercel.app",
